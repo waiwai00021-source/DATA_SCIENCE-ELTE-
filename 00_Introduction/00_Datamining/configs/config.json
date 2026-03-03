@@ -1,0 +1,11 @@
+{
+    "seed": 42,
+    "data": {
+        "raw": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/data/raw",
+        "processed": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/data/processed",
+        "interim": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/data/interim"
+    },
+    "reports": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/reports",
+    "configs": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/configs",
+    "models": "/workspaces/DATA_SCIENCE-ELTE-/00_Introduction/00_Datamining/models"
+}
