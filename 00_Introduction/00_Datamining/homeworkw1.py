@@ -2,9 +2,14 @@ import sys
 import random
 import platform
 from pathlib import Path
+from itertools import combinations
 
 import numpy as np
 import pandas as pd
+import matplotlib 
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
 
 def main() -> None:
     print("Python:", sys.version.split()[0])
@@ -93,3 +98,6 @@ except ImportError:
 
 print(df.shape)
 print(df.head())
+print(df.info())
+print(df.describe())
+
