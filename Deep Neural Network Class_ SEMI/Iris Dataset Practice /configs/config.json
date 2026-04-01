@@ -1,0 +1,11 @@
+{
+    "seed": 42,
+    "data": {
+        "raw": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/data/raw",
+        "processed": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/data/processed",
+        "interim": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/data/interim"
+    },
+    "reports": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/reports",
+    "configs": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/configs",
+    "models": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Deep Neural Network/models"
+}
