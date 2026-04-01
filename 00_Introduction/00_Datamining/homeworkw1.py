@@ -80,7 +80,7 @@ configs = {
 # importing json 
 import json
 (CONFIGS / "config.json").write_text(json.dumps(configs, indent=4))
-print(f"✅ Config written: {CONFIGS / 'config.json'}")
+print(f"Config written: {CONFIGS / 'config.json'}")
 
 # Reading the dataset file 
 xls_path = DATA_RAW / "default of credit card clients (2).xls"
