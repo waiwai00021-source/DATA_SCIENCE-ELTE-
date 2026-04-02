@@ -1,0 +1,19 @@
+{
+    "seed": 42,
+    "data": {
+        "raw": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/data/raw",
+        "processed": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/data/processed",
+        "interim": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/data/interim"
+    },
+    "reports": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/reports",
+    "configs": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/configs",
+    "models": "/workspaces/DATA_SCIENCE-ELTE-/Deep Neural Network Class_ SEMI/Project_2_desertSolar_SA_forecasting/desertSolar_SaudiArabia_forecasting_reimplement/models",
+    "cities": [
+        "Riyadh",
+        "Dhahran",
+        "Jeddah",
+        "Najran",
+        "Tabuk",
+        "AlJouf"
+    ]
+}
