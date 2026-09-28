@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from stream-mining-labs-python!")
+"""Python port of stream mining labs."""

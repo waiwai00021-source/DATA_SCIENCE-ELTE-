@@ -5,6 +5,11 @@
             "path": "Deep Neural Network Class_ SEMI",
             "envManager": "ms-python.python:system",
             "packageManager": "ms-python.python:pip"
+        },
+        {
+            "path": "Audio_Analysis_Course/Homework_one.py",
+            "envManager": "ms-python.python:system",
+            "packageManager": "ms-python.python:pip"
         }
     ]
 }
