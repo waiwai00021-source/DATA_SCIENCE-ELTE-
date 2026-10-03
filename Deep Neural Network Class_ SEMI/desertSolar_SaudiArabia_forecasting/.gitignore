@@ -1,0 +1,11 @@
+
+data/raw/*.csv
+data/processed/*.csv
+data/interim/*.csv
+models/*.pkl
+models/*.h5
+models/*.keras
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

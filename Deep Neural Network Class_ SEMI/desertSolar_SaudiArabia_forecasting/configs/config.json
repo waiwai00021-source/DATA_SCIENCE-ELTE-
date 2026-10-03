@@ -1,0 +1,19 @@
+{
+    "seed": 42,
+    "data": {
+        "raw": "/content/desertSolar_SaudiArabia_forecasting/data/raw",
+        "processed": "/content/desertSolar_SaudiArabia_forecasting/data/processed",
+        "interim": "/content/desertSolar_SaudiArabia_forecasting/data/interim"
+    },
+    "reports": "/content/desertSolar_SaudiArabia_forecasting/reports",
+    "configs": "/content/desertSolar_SaudiArabia_forecasting/configs",
+    "models": "/content/desertSolar_SaudiArabia_forecasting/models",
+    "cities": [
+        "Riyadh",
+        "Dhahran",
+        "Jeddah",
+        "Najran",
+        "Tabuk",
+        "AlJouf"
+    ]
+}
