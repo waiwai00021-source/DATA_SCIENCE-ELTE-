@@ -36,22 +36,37 @@ def scaled_dot_product_attention(Q, K, V, mask):
         output: Attention output, shape (batch, heads, seq_len, d_k)
         weights: Attention weights after softmax, shape (batch, heads, seq_len, seq_len)
     """
-    # TODO: Get d_k from Query tensor
+    # TODO: Get d_k from Query tensor 
     # d_k = ...
+    d_k = Q.size(-1)
 
     # TODO: Compute attention scores
     # scores shape: (batch, heads, seq_len, seq_len)
     # scores = ...
+    scores = torch.matmul(Q, K.transpose(-2, -1)) / math.sqrt(d_k)
 
     # TODO: If mask is provided, fill masked positions with -inf
     # if mask is not None:
     #     scores = ...
+    if mask is not None:
+        scores = scores.masked_fill(mask, float('-inf'))
 
     # TODO: Apply softmax
     # weights = ...
-
+    weights = F.softmax(scores, dim=-1)
     # TODO: Compute the weighted sum: weights @ V
     # output = ...
-
+    output = torch.matmul(weights, V)
     # TODO: Return (output, weights)
-    raise NotImplementedError("Implement scaled_dot_product_attention")
+    return output, weights
+
+
+if __name__ == "__main__":
+    Q = torch.randn(2, 4, 5, 8)
+    K = torch.randn(2, 4, 5, 8)
+    V = torch.randn(2, 4, 5, 8)
+
+    output, weights = scaled_dot_product_attention(Q, K, V, None)
+
+    print("Output shape:", output.shape)
+    print("Weights shape:", weights.shape)
