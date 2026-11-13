@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .vscode/
+Audio_Analysis_Course/week5_audio/*.wav
