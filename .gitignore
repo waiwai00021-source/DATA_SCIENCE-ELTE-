@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 .vscode/
 Audio_Analysis_Course/week5_audio/*.wav
+data/
+Audio_Analysis_Course/binary_classification/recordings/
+*.m4a
+*.wav
